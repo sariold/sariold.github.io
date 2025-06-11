@@ -15,6 +15,7 @@
     text-decoration: none;
     color: #222;
     transition: transform 200ms ease-in-out;
+    flex: 0 1 calc(33.33% - 40px); /* 3 items per row with spacing */
   }
 
   a:hover {

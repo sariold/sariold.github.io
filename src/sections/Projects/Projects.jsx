@@ -4,6 +4,7 @@ import DisplayCard from "../../common/DisplayCard";
 import nftGame from "../../assets/nft-game.png";
 import btcDiploma from "../../assets/btc-diploma.png";
 import btcGold from "../../assets/bitGold.png";
+import caloriego from "../../assets/caloriego.png";
 
 function Projects() {
   return (
@@ -27,6 +28,12 @@ function Projects() {
           link="https://github.com/sariold/BitGold/blob/main/BitGold.ipynb"
           h3="Bitcoin Price Prediction"
           p="Time Series Forecasting"
+        />
+        <DisplayCard
+          src={caloriego}
+          link="https://sariol.dev/Caloriego"
+          h3="Caloriego"
+          p="Macronutrients Calculator"
         />
       </div>
     </section>

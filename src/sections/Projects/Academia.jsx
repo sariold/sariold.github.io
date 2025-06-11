@@ -1,6 +1,7 @@
 import styles from "./ProjectsStyles.module.css";
 import DisplayCard from "../../common/DisplayCard";
 
+import certifications from "../../assets/certifications.png";
 import sentientStocks from "../../assets/sentient-stocks.png";
 import imitationAgent from "../../assets/imitation-agent.png";
 import ensembleLearning from "../../assets/ensemble-learning.png";
@@ -12,6 +13,12 @@ function Academia() {
     <section id="academia" className={styles.container}>
       <h1 className="sectionTitle">Academia</h1>
       <div className={styles.projectsContainer}>
+        <DisplayCard
+          src={certifications}
+          link="https://github.com/sariold/Certifications"
+          h3="Certifications"
+          p="UT Austin + Others"
+        />
         <DisplayCard
           src={sentientStocks}
           link="https://github.com/sariold/Research-Papers/blob/main/Sentient%20Stocks%20-%20Discovering%20Market%20Mysteries%20Through%20Sectorized%20Sentiment%20Analysis%20and%20Predictive%20Modeling.pdf"
