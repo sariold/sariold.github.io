@@ -5,6 +5,7 @@ import nftGame from "../../assets/nft-game.png";
 import btcDiploma from "../../assets/btc-diploma.png";
 import btcGold from "../../assets/bitGold.png";
 import caloriego from "../../assets/caloriego.png";
+import fitness from "../../assets/fitness.png";
 
 function Projects() {
   return (
@@ -34,6 +35,12 @@ function Projects() {
           link="https://sariol.dev/Caloriego"
           h3="Caloriego"
           p="Macronutrients Calculator"
+        />
+        <DisplayCard
+          src={fitness}
+          link="https://sariol.dev/Fitness-Tracker"
+          h3="Fitness Tracker"
+          p="Interactive Workout Analytics"
         />
       </div>
     </section>

@@ -1,6 +1,7 @@
 {
   "name": "Diego Renzo Sariol – Software & ML Engineer",
   "short_name": "Sariol.dev",
+  "description": "Portfolio website of Diego Renzo Sariol, showcasing software engineering and machine learning projects.",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
