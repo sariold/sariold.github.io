@@ -39,7 +39,7 @@ function Hero() {
           <br />
           Sariol
         </h1>
-        <h2>Software Engineer</h2>
+        <h2>Software & ML Engineer</h2>
         <span>
           <a href="https://github.com/sariold" target="_blank">
             <img src={githubIcon} alt="Github icon" />
