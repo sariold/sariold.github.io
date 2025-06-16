@@ -22,25 +22,25 @@ function Projects() {
           src={btcDiploma}
           link="https://github.com/sariold/Bitcoin-Nano"
           h3="Bitcoin Nanodegree"
-          p="Blockchain Developer Certified"
+          p="Smart Contracts & Projects"
         />
         <DisplayCard
           src={btcGold}
           link="https://github.com/sariold/BitGold/blob/main/BitGold.ipynb"
           h3="Bitcoin Price Prediction"
-          p="Time Series Forecasting"
+          p="Time Series Analysis"
         />
         <DisplayCard
           src={caloriego}
           link="https://sariol.dev/Caloriego"
           h3="Caloriego"
-          p="Macronutrients Calculator"
+          p="Macronutrient Calculator Tool"
         />
         <DisplayCard
           src={fitness}
           link="https://sariol.dev/Fitness-Tracker"
           h3="Fitness Tracker"
-          p="Interactive Workout Analytics"
+          p="Data Visualization Dashboard"
         />
       </div>
     </section>

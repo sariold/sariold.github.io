@@ -53,7 +53,7 @@ function Hero() {
           applications, and full-stack systems.
         </p>
         <a
-          href="https://drive.google.com/file/d/1mvR1SrWi0YRw4oVSdq_zNg1clRiLEKJu/view?usp=sharing"
+          href="https://drive.google.com/file/d/1QALKPGE3evEu6JwaXsyNvZnFSMDjPGmE/view?usp=sharing"
           target="_blank"
         >
           <button className="hover">Resume</button>
