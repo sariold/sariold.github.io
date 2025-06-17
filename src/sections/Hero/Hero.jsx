@@ -1,3 +1,5 @@
+import { useEffect, useState } from "react";
+
 import styles from "./HeroStyles.module.css";
 import { useTheme } from "../../common/ThemeContext";
 import { Typewriter } from "react-simple-typewriter";
@@ -20,9 +22,25 @@ function Hero() {
   const githubIcon = theme === "light" ? githubLight : githubDark;
   const contactIcon = theme === "light" ? contactLight : contactDark;
 
+  const [showBubble, setShowBubble] = useState(false);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setShowBubble(true);
+    }, 2000);
+
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
     <section id="hero" className={styles.container}>
       <div className={styles.colorModeContainer}>
+        {showBubble && (
+          <div className={styles.speechBubble}>
+            👋 Explore my work through the icons below.
+          </div>
+        )}
+
         <img
           src={heroImg}
           className={styles.hero}

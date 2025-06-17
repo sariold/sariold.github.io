@@ -26,7 +26,7 @@ function Projects() {
         />
         <DisplayCard
           src={btcGold}
-          link="https://github.com/sariold/BitGold/blob/main/BitGold.ipynb"
+          link="https://github.com/sariold/BitGold"
           h3="Bitcoin Price Prediction"
           p="Time Series Analysis"
         />
