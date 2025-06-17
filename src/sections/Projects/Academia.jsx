@@ -45,7 +45,7 @@ function Academia() {
         />
         <DisplayCard
           src={ethicalCars}
-          link="https://github.com/sariold/Research-Papers/blob/main/Analysis%20of%20Spread%20of%20Viral%20Particles%20in%20a%20Supermarket.pdf"
+          link="https://github.com/sariold/Research-Papers/blob/main/Who%20answers%20for%20the%20machine.pdf"
           h3="Autonomous Vehicle Ethics"
           p="Decision Accountability"
         />
