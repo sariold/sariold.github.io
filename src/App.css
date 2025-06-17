@@ -74,6 +74,19 @@ p {
   cursor: pointer;
 }
 
+.typewriter {
+  display: inline !important;
+  gap: 0 !important;
+  justify-content: initial !important;
+  white-space: nowrap;
+}
+
+.typewriter > span {
+  display: inline !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
 @media (width >= 800px) {
   #root {
     gap: 100px;
