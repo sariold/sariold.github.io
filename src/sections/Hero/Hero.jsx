@@ -92,7 +92,7 @@ function Hero() {
           </span>
         </p>
         <a
-          href="https://drive.google.com/file/d/1QALKPGE3evEu6JwaXsyNvZnFSMDjPGmE/view?usp=sharing"
+          href="https://drive.google.com/file/d/1uhwtBoL28Gv5HGEbIL9tay5n3muA8JoK/view?usp=sharing"
           target="_blank"
         >
           <button className="hover">Resume</button>
